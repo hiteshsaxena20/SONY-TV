@@ -1,0 +1,32 @@
+*.implementation.md
+
+# General
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Python (PC Client & Server)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Android / Kotlin (TV App)
+*.iml
+.gradle/
+local.properties
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Gradle
+.gradle/
+*/build/

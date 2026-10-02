@@ -1,0 +1,12 @@
+[project]
+name = "sony-tv-relay-server"
+version = "0.1.0"
+description = "Relay Server for SONY TV Remote Access System"
+dependencies = [
+    "fastapi>=0.103.1",
+    "uvicorn[standard]>=0.23.2",
+    "websockets>=11.0.3",
+    "asyncpg>=0.28.0",
+    "pyjwt>=2.8.0"
+]
+requires-python = ">=3.11"
